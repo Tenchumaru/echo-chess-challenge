@@ -1,0 +1,16 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+.vs/
+PublishProfiles/
+bin/
+build/
+dist/
+node_modules/
+obj/
+wwwroot/
+x64/
+*.js
+*.js.map
+*.log
+*.sw[op]
+*.user
+.DS_Store
