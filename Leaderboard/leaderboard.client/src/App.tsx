@@ -55,7 +55,7 @@ function App() {
   );
 
   function addScore() {
-    fetch('weatherforecast', {
+    fetch('leaderboard', {
       method: 'POST',
       body: JSON.stringify({ name, score: Number(score) }),
       headers: { 'content-type': 'application/json' },
@@ -72,7 +72,7 @@ function App() {
   }
 
   async function populateLeaderboard() {
-    const response = await fetch('weatherforecast');
+    const response = await fetch('leaderboard');
     const data = await response.json();
     setItems(data);
   }

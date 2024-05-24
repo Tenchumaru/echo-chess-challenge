@@ -1,6 +1,6 @@
 @Leaderboard.Server_HostAddress = http://localhost:5083
 
-GET {{Leaderboard.Server_HostAddress}}/weatherforecast/
+GET {{Leaderboard.Server_HostAddress}}/leaderboard/
 Accept: application/json
 
 ###
